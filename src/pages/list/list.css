@@ -2,12 +2,14 @@
   justify-content: center;
   margin-top: 20px;
   display: flex;
+  gap: 10px;
 }
 
 .listWrapper {
   width: 100%;
   max-width: 1024px;
   display: flex;
+  gap: 10px;
 }
 
 .listSeacrch {
@@ -17,6 +19,7 @@
   border-radius: 10px;
   position: sticky;
   top: 10px;
+  height: max-content;
 }
 
 .listResult {
