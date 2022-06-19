@@ -1,0 +1,23 @@
+.fConatiner {
+  width: 100%;
+  max-width: 1024px;
+  font-size: 12px;
+}
+.footerLists {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.fListItem {
+  list-style: none;
+  color: #003580;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.fText {
+  text-align: center;
+  font-weight: bold;
+}

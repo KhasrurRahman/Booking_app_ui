@@ -1,0 +1,35 @@
+.pHeaderTitle{
+    width: 1024px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pList{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+}
+
+.pItem{
+    cursor: pointer;
+    overflow: hidden;  
+}
+
+.pImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pTitle h1{
+    font-size: 18px;
+}
+.pTitle h2{
+    font-size: 12px;
+    font-weight: 400;
+}

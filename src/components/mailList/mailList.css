@@ -1,0 +1,30 @@
+.mailContainer{
+    width: 100%;
+    background-color: #003580;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    color: white;
+}
+
+.inputContainer input{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.inputContainer button{
+    height: 50px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
